@@ -1,5 +1,7 @@
 The idea ist that -unlike any other DMX Tool- you work with zones of fixtures instead with scenes, that is very good for live performances and doing things on the Fly. 
 
+![Stageplan](https://github.com/fablabnbg/HappyDMX/blob/master/ideabin/stageplan.png)
+
 a zone can be a Physical Area like the Stage or the Lounge, but also a logical "Area" like all Movingheads or PARs
 
 the zones inherit all the properties of their parents. So if you set a property on the zone "Partyarea" all Fixtures in this area react to that. After that you can set the property on childzones.
