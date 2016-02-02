@@ -1,0 +1,2 @@
+This aren't any binding things, just some ideas to get my head free. The actual implementation might be completely different.
+=============================================================================================================================
