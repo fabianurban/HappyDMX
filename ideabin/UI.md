@@ -7,6 +7,7 @@ a zone can be a Physical Area like the Stage or the Lounge, but also a logical "
 the zones inherit all the properties of their parents. So if you set a property on the zone "Partyarea" all Fixtures in this area react to that. After that you can set the property on childzones.
 
 The fixtures can also be in multiple zones, the last property which has been set "wins", or you do bool logic on them.
+Caution: 'the last one wins' is a nondeterministic. Boolean logic is probably complex to define accurateley. We should discuss other conflict resolution or conflict avoidance strategies here.
 
 a property can be many things, like 
 * Color: RGB(W/A/UV), HSV Colors, Strobe, Shutter for Light Fixtures
